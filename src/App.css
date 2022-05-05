@@ -2,6 +2,44 @@
   text-align: center;
 }
 
+.listOfFriends{
+    //border:1px solid black;
+    margin-top:10px;
+    text-align:center;
+    padding:10px;
+}
+
+.friend{
+    border:1px solid red;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.friend_details{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+}
+
+.friend button{
+    margin-left:10px;
+    
+}
+
+
+.form{
+    display:flex;
+    flex-direction:column;
+    width:500px;
+    margin:50px auto;
+}
+
+button{
+    margin-top:10px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
